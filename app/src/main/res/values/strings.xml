@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ashesi_news</string>
+    <string name="ashesi_news">Ashesi News</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="sign_up1">Sign up</string>
+    <string name="Questionlogin">Already have an account? Login</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
