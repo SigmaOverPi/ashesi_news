@@ -45,6 +45,7 @@ tools:context=".LoginActivity">
 
 
             <EditText
+                android:id="@+id/login_username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
@@ -56,6 +57,7 @@ tools:context=".LoginActivity">
                 android:textColor="@color/black" />
 
             <EditText
+                android:id="@+id/login_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
@@ -67,6 +69,7 @@ tools:context=".LoginActivity">
                 android:textColor="@color/black" />
 
             <Button
+                android:id="@+id/login_button"
                 android:layout_width="200sp"
                 android:layout_height="60dp"
                 android:layout_gravity="center_horizontal"
@@ -103,7 +106,7 @@ tools:context=".LoginActivity">
         app:srcCompat="@drawable/screenshot_12112024_001147" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/signupRedirectText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Not yet a user? Sign Up"
