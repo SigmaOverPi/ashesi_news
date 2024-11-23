@@ -37,7 +37,7 @@
         android:layout_height="match_parent"
         android:text="Search"
         android:gravity="center"
-        android:textSize="36dp"/>
+        android:textSize="36sp"/>
 
 
 </FrameLayout>

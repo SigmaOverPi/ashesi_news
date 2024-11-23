@@ -22,7 +22,7 @@
 
 
             android:text="Home"
-            android:textSize="48dp"
+            android:textSize="48sp"
 
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
     android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/uploadEditext"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="30dp"
@@ -56,51 +56,30 @@
 
 
         <!-- Title TextView -->
-        <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:lineSpacingExtra="20dp"
-            android:paddingVertical="50dp"
-            android:paddingHorizontal="20dp"
-
-            android:text="Demand For Indian generic Foods ..."
-            android:textSize="30dp"
-            android:textStyle="bold" />
+<!--        <TextView-->
+<!--            android:id="@+id/titleTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:lineSpacingExtra="20dp"-->
+<!--            android:paddingVertical="50dp"-->
+<!--            android:paddingHorizontal="20dp"-->
+<!--            android:text="Demand For Indian generic Foods ..."-->
+<!--            android:textSize="30dp"-->
+<!--            android:textStyle="bold" />-->
 
         <!-- Body TextView -->
-        <TextView
-            android:id="@+id/bodyTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:text="Trial Text"
-            android:textSize="16sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/bodyTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:text="Trial Text"-->
+<!--            android:textSize="30sp" />-->
 
         <!-- Upload Section (optional, you could use an EditText or Button here) -->
-        <EditText
-            android:id="@+id/uploadEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="40dp"
-            android:hint="Share your thoughts..." />
 
-        <!-- Comment Section -->
-        <TextView
-            android:id="@+id/commentsSection"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_gravity="bottom"
-            android:layout_marginLeft="40dp"
-            android:layout_marginBottom="10dp"
-            android:text="Comments"
-            android:textColor="#888888"
-            android:textSize="20dp"
-            android:textStyle="bold" />
 
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
