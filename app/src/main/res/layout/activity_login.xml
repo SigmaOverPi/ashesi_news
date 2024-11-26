@@ -29,7 +29,7 @@ tools:context=".LoginActivity">
 
         <LinearLayout
             android:layout_width="358dp"
-            android:layout_height="456dp"
+            android:layout_height="492dp"
             android:layout_gravity="center_horizontal"
             android:orientation="vertical"
             android:padding="20dp">
@@ -40,15 +40,15 @@ tools:context=".LoginActivity">
                 android:layout_height="wrap_content"
                 android:text="@string/login"
                 android:textAlignment="center"
-                android:textSize="36sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
 
             <EditText
                 android:id="@+id/login_username"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/black_border"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="12dp"
@@ -57,10 +57,22 @@ tools:context=".LoginActivity">
                 android:textColor="@color/black" />
 
             <EditText
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/black_border"
+                android:drawableLeft="@drawable/baseline_alternate_email_24"
+                android:drawablePadding="12dp"
+                android:hint="@string/e_mail"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
                 android:id="@+id/login_password"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/black_border"
                 android:drawableLeft="@drawable/password_24px"
                 android:drawablePadding="12dp"
@@ -70,14 +82,21 @@ tools:context=".LoginActivity">
 
             <Button
                 android:id="@+id/login_button"
-                android:layout_width="200sp"
-                android:layout_height="60dp"
+                android:layout_width="229dp"
+                android:layout_height="50dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="5dp"
                 android:backgroundTint="@color/black"
                 android:shadowRadius="10"
                 android:text="@string/login"
                 android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/google_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:srcCompat="@drawable/googleg_standard_color_18"
+                />
 
 
         </LinearLayout>
