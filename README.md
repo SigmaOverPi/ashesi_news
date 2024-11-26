@@ -7,11 +7,33 @@
 
 
 
-# Description of App 🗞️
+# 1. Description of App 🗞️
 The Ashesi News App is a **mobile platform** designed to keep the **Ashesi University community informed and engaged**. It delivers the latest campus news, events, and updates directly to users, featuring a clean interface, real-time notifications, and seamless integration with social features for commenting and sharing. Stay connected to everything happening on campus, all in one app!
 
-# Tech Stack 📚
+# 2. Feature Section 📱
+Some features present in the app and some future features we hope to implement:
+
+  - Push notifications for breaking news and event reminders.
+  - User authentication for personalized experiences.
+  - News categorization for easier navigation (e.g., Events, Announcements, Academics).
+  - Commenting and sharing capabilities to boost engagement.
+  - Offline mode for accessing saved articles without an internet connection.
+
+# 3. Tech Stack 📚
     - Android Studio: For developing the app’s user interface and core functionality.
     - Firebase: For user authentication, real-time database management, and cloud storage.
+    
+# 4. Installing Instructions ⚙️
+Show employers that your project is easy to set up. Include clear steps to install and run your app:
 
-Stay connected to everything happening on campus, all in one app! 🌟
+    git clone https://github.com/your-username/ashesi-news-app.git
+
+Open the project in Android Studio.
+Connect the app to your Firebase Project:
+
+    Follow the Firebase setup guide.
+
+Build and run the app on your preferred emulator or Android device.
+
+
+## Stay connected to everything happening on campus, all in one app! 🌟
