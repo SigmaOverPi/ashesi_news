@@ -23,8 +23,8 @@ Some features present in the app and some future features we hope to implement:
     - Android Studio: For developing the app’s user interface and core functionality.
     - Firebase: For user authentication, real-time database management, and cloud storage.
     
-# 4. Installing Instructions ⚙️
-Show employers that your project is easy to set up. Include clear steps to install and run your app:
+# 4. Installing Instructions⚙️
+ Install and run the app:
 
     git clone https://github.com/your-username/ashesi-news-app.git
 
