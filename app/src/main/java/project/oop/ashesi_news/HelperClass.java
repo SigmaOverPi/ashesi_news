@@ -34,4 +34,10 @@ public class HelperClass {
     }
     public HelperClass() {
     }
+
+    public HelperClass(String name, String email, String username) {
+        this.name = name;
+        this.email = email;
+        this.username = username;
+    }
 }

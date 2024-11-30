@@ -107,6 +107,12 @@
                     android:text="@string/sign_up1"
                     android:textSize="20sp" />
 
+                <ImageButton
+                    android:id="@+id/google_signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/googleg_standard_color_18" />
+
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

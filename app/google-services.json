@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "374895128188",
+    "firebase_url": "https://ashesi-news-93712-default-rtdb.firebaseio.com",
+    "project_id": "ashesi-news-93712",
+    "storage_bucket": "ashesi-news-93712.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374895128188:android:5d4b05f49c5322ed47a3f9",
+        "android_client_info": {
+          "package_name": "project.oop.ashesi_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374895128188-lae0hbe1bspvtc3vb01g5m6gv49hhukp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.oop.ashesi_news",
+            "certificate_hash": "69dc8c6dde52ac4cef3167730b220421634506cf"
+          }
+        },
+        {
+          "client_id": "374895128188-v61p8l5lh25v8j71ccncid6nso53oje5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDienPqdvTYNi1l7IifvTTJXgO3tCp4LVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374895128188-v61p8l5lh25v8j71ccncid6nso53oje5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
