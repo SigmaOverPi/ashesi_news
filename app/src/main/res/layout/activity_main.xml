@@ -13,11 +13,32 @@
         android:layout_height="match_parent"
         android:id="@+id/frame_layout"/>
 
+<!--    &lt;!&ndash; CardStackView for swipeable cards &ndash;&gt;-->
+<!--    <com.yuyakaido.android.cardstackview.CardStackView-->
+<!--        android:id="@+id/card_stack_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:clipChildren="false"-->
+<!--        tools:ignore="MissingClass" />-->
+
+<!--    &lt;!&ndash; Button to open a form for adding new cards &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/add_card_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:text="Add Card" />-->
+
+
     <com.google.android.material.bottomappbar.BottomAppBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="-105dp"
+        android:layout_marginBottom="-80dp"
         android:id="@+id/bottomAppBar"
         android:backgroundTint= "@android:color/transparent">
 
