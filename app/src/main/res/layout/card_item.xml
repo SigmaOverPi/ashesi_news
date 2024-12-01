@@ -48,7 +48,7 @@
                 <ImageView
                     android:id="@+id/card_image"
                     android:layout_width="match_parent"
-                    android:layout_height="350dp"
+                    android:layout_height="280dp"
                     android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp" />
 

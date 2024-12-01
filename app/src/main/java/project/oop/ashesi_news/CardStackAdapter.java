@@ -63,6 +63,13 @@ public class CardStackAdapter extends RecyclerView.Adapter<CardStackAdapter.View
         return cards.size();
     }
 
+    public Card getItemAt(int position) {
+        if (position >= 0 && position < cards.size()) {
+            return cards.get(position); // Return the card at the given position
+        }
+        return null;
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView title, description, comments;
         ImageView imageView;
@@ -74,6 +81,7 @@ public class CardStackAdapter extends RecyclerView.Adapter<CardStackAdapter.View
             comments = itemView.findViewById(R.id.card_comments);
             imageView = itemView.findViewById(R.id.card_image); // Ensure this ID exists in card_item.xml
         }
+
     }
 
     public void updateData(List<Card> newCards) {

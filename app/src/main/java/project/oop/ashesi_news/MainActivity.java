@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (item.getItemId() == R.id.search) {
                 replaceFragment(new SearchFragment());
             } else if (item.getItemId() == R.id.bookmark) {
-                replaceFragment(new bookmarkFragment());
+                replaceFragment(new BookmarkFragment());
             }
             return true;
         });
