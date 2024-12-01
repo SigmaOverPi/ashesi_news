@@ -57,6 +57,8 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation ("com.github.yuyakaido:CardStackView:v2.3.4")
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
 
 
 }

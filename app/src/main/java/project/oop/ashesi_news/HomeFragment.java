@@ -55,9 +55,6 @@ public class HomeFragment extends Fragment {
 
         // Fetch cards from Firebase
         fetchCardsFromFirebase();
-
-        // Add new card button listener
-//        view.findViewById(R.id.add_card_button).setOnClickListener(v -> addNewCard());
     }
 
     private void fetchCardsFromFirebase() {
@@ -65,10 +62,17 @@ public class HomeFragment extends Fragment {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
                 List<Card> cards = new ArrayList<>();
-                for (DataSnapshot child : snapshot.getChildren()) {
-                    Card card = child.getValue(Card.class);
-                    cards.add(card);
+                for (DataSnapshot cardSnapshot : snapshot.getChildren()) {
+                    String title = cardSnapshot.child("title").getValue(String.class);
+                    String description = cardSnapshot.child("description").getValue(String.class);
+                    String imageUrl = cardSnapshot.child("imageUrl").getValue(String.class);
+
+                    Log.d("HomeFragment", "Fetched Card: Title = " + title + ", Description = " + description + ", Image URL = " + imageUrl);
+                    // Create a card model and add it to the list
+                    cards.add(new Card(title, description, imageUrl));
                 }
+
+                // Pass the updated list of cards to the adapter
                 adapter.updateData(cards);
             }
 
@@ -77,18 +81,5 @@ public class HomeFragment extends Fragment {
                 Log.e("HomeFragment", "Database error: " + error.getMessage());
             }
         });
-    }
-
-    private void addNewCard() {
-        String title = "New Card Title";
-        String description = "New Card Description";
-        Card newCard = new Card(title, description);
-
-        // Push new card to Firebase
-        databaseReference.push().setValue(newCard).addOnSuccessListener(aVoid ->
-                Toast.makeText(requireContext(), "Card added!", Toast.LENGTH_SHORT).show()
-        ).addOnFailureListener(e ->
-                Toast.makeText(requireContext(), "Failed to add card!", Toast.LENGTH_SHORT).show()
-        );
     }
 }
