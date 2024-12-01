@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374895128188",
+    "project_id": "ashesi-news-93712",
+    "storage_bucket": "ashesi-news-93712.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374895128188:android:5d4b05f49c5322ed47a3f9",
+        "android_client_info": {
+          "package_name": "project.oop.ashesi_news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDienPqdvTYNi1l7IifvTTJXgO3tCp4LVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

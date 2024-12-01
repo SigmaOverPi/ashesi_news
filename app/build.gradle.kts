@@ -44,7 +44,7 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.firebase.database)
     // New Implementations(For OAuth)
-    implementation(libs.firebase.bom)
+    implementation(platform(libs.firebase.bom))
     implementation(libs.credentials)
     implementation(libs.credentials.play.services.auth)
     implementation(libs.googleid.v110)
@@ -56,4 +56,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation ("com.github.yuyakaido:CardStackView:v2.3.4")
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+
+
 }

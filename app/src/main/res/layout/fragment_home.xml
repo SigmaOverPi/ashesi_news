@@ -36,51 +36,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.cardview.widget.CardView
+<!-- This is for the card shit i did -->
 
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/card_stack_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginVertical="150dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginBottom="150dp"
-        android:backgroundTint="@color/brown"
-        android:orientation="vertical"
-        android:padding="16dp"
-        app:cardCornerRadius="50dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:elevation="100dp">
+        tools:ignore="MissingClass" />
 
+        <!-- Button to open a form for adding new cards -->
 
-        <!-- Title TextView -->
-<!--        <TextView-->
-<!--            android:id="@+id/titleTextView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center_horizontal"-->
-<!--            android:lineSpacingExtra="20dp"-->
-<!--            android:paddingVertical="50dp"-->
-<!--            android:paddingHorizontal="20dp"-->
-<!--            android:text="Demand For Indian generic Foods ..."-->
-<!--            android:textSize="30dp"-->
-<!--            android:textStyle="bold" />-->
+    <!-- CardStackView for swipeable cards -->
 
-        <!-- Body TextView -->
-<!--        <TextView-->
-<!--            android:id="@+id/bodyTextView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:layout_marginTop="8dp"-->
-<!--            android:text="Trial Text"-->
-<!--            android:textSize="30sp" />-->
-
-        <!-- Upload Section (optional, you could use an EditText or Button here) -->
-
-
-    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
